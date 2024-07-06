@@ -21,7 +21,6 @@ class RegisterForm extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí podrías manejar la lógica de envío del formulario
     console.log('Formulario enviado:', this.state);
   }
 

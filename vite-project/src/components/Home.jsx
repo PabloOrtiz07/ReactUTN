@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { Carousel, Container, Row, Col, Button } from 'react-bootstrap'; // Importamos Button de react-bootstrap
+import { Carousel, Container, Row, Col, Button } from 'react-bootstrap';
 import '../home.css';
 import productsData from '../assets/productsData.json';
 
@@ -32,7 +32,7 @@ const Home = () => {
                   <h3>{product.name}</h3>
                   <p>{product.description}</p>
                   <p>Price: ${product.price}</p>
-                  <Button id="buy"variant="primary">Buy Now</Button> {/* Botón para comprar */}
+                  <Button id="buy"variant="primary">Buy Now</Button> {}
                 </div>
               </Col>
             </Row>
